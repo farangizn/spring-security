@@ -28,7 +28,7 @@ public class JwtUtils {
     }
 
     public SecretKey signKey() {
-        byte[] bytes = Decoders.BASE64.decode("42c406ee16526e86de7fd985d30c52334b4e5dd70");
+        byte[] bytes = Decoders.BASE64.decode("l4gKDJ79v10j8tGHOZ+nQAz/i5c/Hc4NktN2P7C6ZP0=");
         return Keys.hmacShaKeyFor(bytes);
     }
 

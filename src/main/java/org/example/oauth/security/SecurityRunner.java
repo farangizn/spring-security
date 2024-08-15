@@ -14,7 +14,7 @@ public class SecurityRunner implements CommandLineRunner {
 
     private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;
-    @Value("spring.jpa.hibernate.ddl-auto")
+    @Value("${spring.jpa.hibernate.ddl-auto}")
     private String ddl;
     private final RoleRepository roleRepository;
 
